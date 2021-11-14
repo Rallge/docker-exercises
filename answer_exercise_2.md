@@ -14,8 +14,9 @@ COPY
 COPY master.tar.gz   /root
 RUN  tar -xvf /root/master.tgz
 
-- La diferencia es que que la instrucción COPY no permite ningún archivo fuera de contexto. Entonces, si está transmitiendo Dockerfile a través 
-del archivo stdin o una URL (que no apunta a un código fuente repositorio), no se puede utilizar la instrucción COPY.
+- La diferencia es que que la instrucción COPY no permite ningún archivo fuera de contexto. Entonces, si está transmitiendo 
+Dockerfile a través del archivo stdin o una URL (que no apunta a un código fuente repositorio), no se puede utilizar 
+la instrucción COPY.
 Ejemplo: Esto no se podria dar
 COPY http://example.com/bar.go   /tmp/main.go 
 
