@@ -7,7 +7,7 @@ Nota: Adjuntar una breve explicación de todos los pasos que has seguido para la
 consecución de los objetivos marcados en el enunciado y todos los
 comandos/ficheros utilizados
 
-Los archivos usados para este ejercicio esta en la carpeta *answer_exercise_3*
+Los archivos usados para este ejercicio esta guardado en este repositorio. Carpeta: static_content
 
 PASO 1:
 Descargamos la imagen de docker de la versión 1.19.3
